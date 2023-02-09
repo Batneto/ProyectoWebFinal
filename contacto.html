@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="icon" href="img/Logo3.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" ><img class="logotipo" src="img/logo5.png" alt="Logotipo" /></a>
+
+        <div class="redes">
+            <a href="index.html" class="icono"><img src="img/Logo3.png" alt="" /></a>
+            <a href="https://twitter.com" class="iconoR"><img src="img/pngegg.png" alt="" /></a>
+            <a href="https://www.facebook.com" class="iconoR"><img src="img/facebook.png" alt="" /></a>
+            <a href="https://www.instagram.com" class="iconoinsta"><img src="img/instagram.png" alt=""/></a>
+        </div>
+
+
+        
+      </header> 
+      <nav class="nav">
+        
+          <a href="index.html">Inicio</a>
+          <a href="cafes.html">Cafés</a>
+          <a href="porfolio.html">Portfolio</a>
+          <a href="#" onclick="alerta()" >Review</a>
+          <a href="#"onclick="alerta()">Sobre Nosotros</a>
+          <a href="contacto.html">Contactanos</a>
+       
+      </nav>
+
+
+<section class="container">
+    <h2>Formulario de Contacto</h2>
+            <form action="">
+       
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="controls" placeholder="Escribe tu nombre" required>
+                </div>
+                <div class="campo">
+                    <label for="apellidos" >Apellidos</label>
+                    <input type="text" class="controls" placeholder="Escribe tus apellidos" required>
+                </div>
+                <div class="campo">
+                    <label for="dni">DNI</label>
+                    <input type="number" class="controls" placeholder="Escribe tu DNI" required>
+                </div>
+                <div class="campo">
+                    <label for="nacimiento">Lugar de nacimiento</label>
+                    <input type="text" class="controls" placeholder="Escribe tu lugar de nacimiento">
+                </div>
+                
+                <div class="campo">
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date"class="controls">
+                </div>
+                <div class="campo">
+                    <label for="domicilio">Domicilio (calle, portal, piso)</label>
+                    <input type="text" class="controls" placeholder="Escribe tu dirección" required>
+                </div>
+                <div class="campo">
+                    <label for="postal">Código postal</label>
+                    <input type="text" class="controls">
+                </div>
+                <div class="campo">
+                    <label for="localidad">Localidad</label>
+                    <input type="text" class="controls" placeholder="Escribe tu localidad">
+                </div>
+                <div class="campo">
+                    <label for="telefono">Teléfono</label>
+                <input type="number" class="controls" placeholder="Escribe tu número de teléfono">
+                </div>
+
+                <div id="cafe">
+                <legend>Intensidad del Cafe</legend>
+
+                  <div class="opciones">
+                    <input type="radio" name="cafe"> <p>Baja</p> 
+                    <input type="radio" name="cafe"> <p>Media</p> 
+                    <input type="radio" name="cafe"> <p>Alta</p> 
+                  </div>
+                </div>
+
+                <div class="submit">
+                  <input type="submit">
+                  </div>
+            </form>
+</section>
+
+
+
+<footer id="footer"> 
+   
+  <div class=""><h4>© Cosmic Coffee - Todos los derechos reservados </h4>
+  </div>
+  
+</footer>
+
+<script src="alerta.js"></script>
+
+</body>
+</html>

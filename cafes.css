@@ -1,0 +1,239 @@
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/posible\ fondo\ body.png);
+}
+
+
+
+
+
+.header{
+    background-image: url(img/backgraud\ repeat.jpg);
+    text-align: center;
+    width: 100%;
+    height: 300px;
+
+
+}
+
+.logotipo{
+    width: 300px;
+    height: 300px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: center;
+    height: 48px;
+    z-index: 1;
+}
+
+.nav a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    transform: 300ms;
+}
+
+
+
+.nav a:hover{
+    color: burlywood;
+    scale: 1.25;
+}
+/* Redes */
+
+
+
+.redes{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    margin-top: -283px;
+    justify-content: right
+}
+
+
+.icono img{
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    transition: 300ms;
+
+}
+.icono img:hover{
+   scale:1.15;
+
+}
+
+
+.iconoinsta img{
+    width: 35px;
+    height: 35px;
+    transition: 300ms;
+
+}
+.iconoinsta img:hover{
+    scale: 1.15;
+}
+
+.iconoR img{
+    width: 40px;
+    height: 40px;
+    transform: 400ms;
+}
+.iconoR img:hover{
+    scale: 1.15;
+}
+
+
+/* Fin de la cabecera */
+
+
+/* Titulo */
+
+.titulo{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Berkshire Swash;
+    border-bottom: 1px solid black;
+    letter-spacing: 3px;
+    padding: 20px;
+
+}
+
+
+
+
+/* Cartas */
+
+.cardCoffee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.card1{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url(img/paquete5.png);
+    background-size: cover;
+    margin: 10px;
+    /* background-color: blue; */
+    margin-top: -10%;
+    
+    
+    
+}
+.card2{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url(img/bolsa2.png);
+    background-size: cover;
+    margin: 10px;
+    /* background-color: red; */
+    margin-top: -10%;
+   
+}
+.card3{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url(img/bolsa3.png);
+    background-size: cover;
+    margin: 10px;
+    /* background-color: green; */
+    margin-top: -10%;
+}
+.card4{
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-image: url(img/paquete4.png);
+    background-size: cover;
+    margin: 10px;
+    /* background-color: orangered; */
+    margin-top: -10%;
+    
+}
+
+
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5;
+}
+
+.card1:hover .content{
+    opacity: 1;
+    scale: 1.25;
+}
+.card2:hover .content{
+    opacity: 1;
+    scale: 1.25;
+}
+.card3:hover .content{
+    opacity: 1;
+    scale: 1.25;
+}
+.card4:hover .content{
+    opacity: 1;
+    scale: 1.25;
+}
+
+
+.content h2{
+
+    font-family:Berkshire Swash; 
+    margin-bottom: 234px;
+    letter-spacing: 3px;
+    color: wheat;
+}
+
+.content a{
+    text-decoration: none;
+    color: burlywood;
+}
+
+
+/* Fin cartas */
+
+
+
+
+/* Footer */
+
+#footer{
+    width: 100%;
+    margin: 0 px auto;
+    text-align: center ;
+    margin-top: -40px;
+    background-color: #333333;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    height: 45px;
+    color: white;
+}
+
+/* Fin del Footer */
